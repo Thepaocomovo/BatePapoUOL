@@ -1,3 +1,62 @@
 body{
-    background-color: blue;
+    background-color: #f3f3f3;
+}
+
+.top{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    padding: 0 22px;
+    background-color: #ffffff; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.inputBar{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 17px;
+    background-color: #ffffff;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05); 
+}
+input{
+    height: 35px;
+    width: 280px;
+    border: none;
+    outline: none;
+    word-wrap: break-word
+    
+}
+
+.chat{
+    margin-top: 80px;
+}
+.message{
+    width: 100%;
+    margin: 4px 0;
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+
+
+    height: 40px;
+}
+.joinLeft{
+    background-color: #dcdcdc;
+}
+.talk{
+    background-color: #FFFFFF;
+}
+.direct{
+    background-color: #FFDEDE;
 }
