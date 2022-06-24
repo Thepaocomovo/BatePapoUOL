@@ -31,7 +31,7 @@ body{
 }
 input{
     height: 35px;
-    width: 280px;
+    width: 90%;
     border: none;
     outline: none;
     word-wrap: break-word
@@ -39,24 +39,28 @@ input{
 }
 
 .chat{
-    margin-top: 80px;
+    margin: 84px 0;
 }
-.message{
+.content{
     width: 100%;
     margin: 4px 0;
-    padding-left: 8px;
-    display: flex;
-    align-items: center;
+    padding: 20px 0 20px 8px;
+    display:flex;
+    align-items: flex-start;
 
-
-    height: 40px;
 }
-.joinLeft{
+.status{
     background-color: #dcdcdc;
 }
-.talk{
+.message{
     background-color: #FFFFFF;
 }
 .direct{
     background-color: #FFDEDE;
+}
+span{
+    padding-right: 10px;
+}
+.time span{
+    color:  #AAAAAA;
 }
