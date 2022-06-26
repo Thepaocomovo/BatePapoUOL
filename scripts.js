@@ -80,7 +80,7 @@ function sendMessage(){
         type: "message"
         };
         const send = axios.post("https://mock-api.driven.com.br/api/v6/uol/messages", coment);
-        DATA();
+        setTimeout(DATA, 500);
         message.value = "";
     }
 }
