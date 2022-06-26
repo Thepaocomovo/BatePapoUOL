@@ -35,7 +35,6 @@ input{
     border: none;
     outline: none;
     word-wrap: break-word
-    
 }
 
 .chat{
@@ -44,10 +43,9 @@ input{
 .content{
     width: 100%;
     margin: 4px 0;
-    padding: 20px 0 20px 8px;
+    padding: 20px 5px 20px 8px;
     display:flex;
     align-items: flex-start;
-
 }
 .status{
     background-color: #dcdcdc;
@@ -63,4 +61,11 @@ span{
 }
 .time span{
     color:  #AAAAAA;
+}
+.text{
+    display: inline-block;
+    word-break: break-all;
+}
+.inputBar img:hover {
+    opacity: 0.5;
 }
